@@ -1,0 +1,749 @@
+<!DOCTYPE html><html lang="en"><head>
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+<title>Nabobeatz, A Home Of Music</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+<link rel="stylesheet" type="text/css" href="bootstrap-icons.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<link rel="manifest" href="_manifest.json">
+<meta id="theme-check" name="theme-color" content="#FFFFFF">
+<link rel="apple-touch-icon" sizes="180x180" href="logo2.png"></head>
+<body class="theme-light">
+
+<div id="page">
+<div class="header-bar header-fixed header-app header-bar-detached">
+
+<a href="#" class="header-title color-theme"> <img src="logo2.png" height="25" width="150"><!--<span id="demo"></span>--></a>
+<a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-bell"><em class="badge bg-highlight ms-1">3</em><i class="font-14 bi bi-bell-fill"></i></a>
+
+&nbsp;
+</div>
+
+<div id="footer-bar" class="footer-bar footer-bar-detached">
+
+
+<!--<a href="shop.html"><i class="bi bi-basket2-fill font-23"></i><span>Shop</span></a>-->
+<a href="index.html" class="active-nav"><i class="bi bi-house-fill font-23"></i><span>Home</span></a>
+<a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-main"><em class="badge ms-1"><i class="bis bi-clock-fill" style="color: blue;"></i></em><i class="bi bi-calendar-fill font-23"></i><span>Events</span></a>
+</div>
+
+<div id="menu-main" data-menu-active="nav-homes" style="width:280px;" class="offcanvas offcanvas-start offcanvas-detached rounded-m">
+    <br>
+    <span class="font-23 font-700 color-theme">&nbsp;&nbsp;&nbsp;DISCOVER NEW &nbsp; <br>&nbsp;&nbsp;&nbsp;EVENTS AND OFFERS &nbsp;</span>
+    
+<hr>
+<div id="Pro" >
+       <div class="card card-style mb-3 rounded-m mt-3" style="background-image: url('xmas.png');" data-card-height="150" data-bs-toggle="offcanvas" data-bs-target="#menu-information"><div class="card-top">
+<span class="badge border shadow-bg opacity-90 shadow-bg-s color-white  py-2 m-3 float-end animated-badge"  style="background-color: #3A9F00;"><i class="bis bi-broadcast-pin" style="font-size: 12px;"></i>&nbsp;ACTIVE</span>
+</div>
+	<div class="card-bottom p-3">
+		<h1 class="color-white font-20 font-700 mb-n2">CHRISTMAS OFFER</h1><body onload="countdown()">
+		<p class="color-white font-12 opacity-70 mb-n1"  id="timer"> </p>
+	</div>
+	<div class="card-overlay bg-gradient-fade rounded-0"></div>
+		<div class="card-overlay opacity-30 rounded-0"></div>
+</div>
+</div>
+<div class="card card-style mb-3 rounded-m mt-3" style="background-image: url('battle.png');" data-card-height="150">
+            <div class="card-top">
+<span id="countdownText2"class="badge color-black opacity-70 py-2 m-3 float-end animated-badge" style="background-color: #00FFEA;"><i class="bis bi-clock" style="font-size: 12px;"></i>&nbsp;COMING NEXT</span>
+</div>
+	<div class="card-bottom p-3">
+		<h1 class="color-white opacity-60 font-20 font-700 mb-n2">PRODUCERS BATTLE</h1>
+
+						<p class="color-white font-12 opacity-70 mb-n1"  id="countdown1"> </p>
+
+	</div>
+		<div class="card-overlay bg-gradient-fade rounded-0"></div>
+			<div class="card-overlay bg-white opacity-70 rounded-0"></div>
+
+
+</div>
+<div class="card card-style mb-3 rounded-m mt-3" style="background-image: url('vocha.png');" data-card-height="150">
+    <div class="card-top">
+<span class="badge color-black opacity-70 py-2 m-3 float-end animated-badge" style="background-color: grey;"><i class="bis bi-clock-fill" style="font-size: 12px;"></i>&nbsp;COMING SOON</span>
+</div>
+	<div class="card-bottom p-3">
+		<h1 class="color-white opacity-60 font-20 font-700 mb-n2">XCLUSIVE VOUCHER</h1>
+
+				<p class=" font-12 opacity-70 mb-n1" style="color: #00AAFF;"></p>
+	</div>
+		<div class="card-overlay bg-gradient-fade rounded-0"></div>
+		<div class="card-overlay bg-white opacity-50 rounded-0"></div>
+
+		
+</div>
+<div class="card card-style mb-3 rounded-m mt-3" style="background-image: url('global.png');" data-card-height="150">
+    
+        <div class="card-top">
+
+<span class="badge color-black opacity-70 py-2 m-3 float-end animated-badge" style="background-color: grey;"><i class="bis bi-clock-fill" style="font-size: 12px;"></i>&nbsp;COMING SOON</span>
+</div>
+	<div class="card-bottom p-3">
+		<h1 class="color-white opacity-60 font-20 font-700 mb-n2">UPCOMING ARTISTS</h1>
+			<p class=" font-12 opacity-70 mb-n1" style="color: #00AAFF;"></p>
+	</div>
+		<div class="card-overlay font-900 bg-gradient-fade rounded-0"></div>
+
+			<div class="card-overlay bg-white opacity-70 rounded-0"></div>
+
+</div>
+
+<div class="card card-style mb-3 rounded-m mt-3" style="background-image: url('mifa.png');" data-card-height="150">
+            <div class="card-top">
+<span class="badge color-black opacity-70 py-2 m-3 float-end animated-badge" style="background-color: grey;"><i class="bis bi-clock-fill" style="font-size: 12px;"></i>&nbsp;COMING SOON</span>
+</div>
+	<div class="card-bottom p-3">
+		<h1 class="color-white opacity-60 font-20 font-700 mb-n2">MUSIC IS FOR ALL</h1>
+			<p class=" font-12 opacity-70 mb-n1" style="color: #00AAFF;"></p>
+	</div>
+		<div class="card-overlay bg-gradient-fade rounded-0 font-900"></div>
+
+			<div class="card-overlay bg-white rounded-0 opacity-70"></div>
+
+</div>
+<div class="card card-style mb-3 rounded-m mt-3" style="background-image: url('03.png');" data-card-height="150">
+    <div class="card-top">
+<span class="badge color-black opacity-70 py-2 m-3 float-end animated-badge" style="background-color: grey;"><i class="bis bi-clock-fill" style="font-size: 12px;"></i>&nbsp;COMING SOON</span>
+</div>
+	<div class="card-bottom p-3">
+		<h1 class="color-white opacity-60 font-20 font-700 mb-n2">03 YEARS ANNIVERSARY</h1>
+
+				<p class=" font-12 opacity-70 mb-n1" style="color: #00AAFF;"></p>
+	</div>
+		<div class="card-overlay bg-gradient-fade rounded-0"></div>
+		<div class="card-overlay bg-white opacity-50 rounded-0"></div>
+
+		
+</div>
+<div class="card card-style mb-3 rounded-m mt-3" style="background-image: url('social.png');" data-card-height="150">
+    <div class="card-top">
+<span class="badge color-black opacity-70 py-2 m-3 float-end animated-badge" style="background-color: grey;"><i class="bis bi-clock-fill" style="font-size: 12px;"></i>&nbsp;COMING SOON</span>
+</div>
+	<div class="card-bottom p-3">
+		<h1 class="color-white opacity-60 font-20 font-700 mb-n2">SOCIAL BATTLING</h1>
+
+				<p class=" font-12 opacity-70 mb-n1" style="color: #00AAFF;"></p>
+	</div>
+		<div class="card-overlay bg-gradient-fade rounded-0"></div>
+		<div class="card-overlay bg-white opacity-50 rounded-0"></div>
+
+		
+</div>
+<div class="card card-style mb-3 rounded-m mt-3" style="background-image: url('skill.png');" data-card-height="150">
+            <div class="card-top">
+<span class="badge color-black opacity-70 py-2 m-3 float-end animated-badge" style="background-color: grey;"><i class="bis bi-clock-fill" style="font-size: 12px;"></i>&nbsp;COMING SOON</span>
+</div>
+	<div class="card-bottom p-3">
+		<h1 class="color-white opacity-60 font-20 font-700 mb-n2">E-NABOSKILLS</h1>
+			<p class=" font-12 opacity-70 mb-n1" style="color: #00AAFF;"></p>
+	</div>
+		<div class="card-overlay font-900 bg-gradient-fade rounded-0"></div>
+				
+	<div class="card-overlay bg-white opacity-70 rounded-0"></div>
+
+</div>
+
+</div>
+
+
+
+<div id="menu-bell" style="height:300px; " class="offcanvas offcanvas-top offcanvas-detached rounded-m"><div class="header-clear-small">
+    		<h1 class="color-theme text-center opacity-60 font-30 font-700 mb-n2">NOTIFICATIONS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" data-bs-dismiss="offcanvas" class="close-menu "><i class="bis bi-x-circle-fill color-red-dark opacity-700 font-30"></i></a></h1>
+    		<hr>
+  <div class="alert border-blue-dark alert-dismissible color-blue-dark rounded-xxl fade show" role="alert">
+<strong>INFORMATION</strong> - Things Updates Every Time, So Don't Miss Offers,Vouchers and Events Before They Run Out Of Time.
+<button type="button" class="btn-close color-blue-dark opacity-90 font-11 pt-3 mt-1" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+<div class="alert bg-fade2-yellow color-theme border border-yellow-dark alert-dismissible rounded-xxl fade show" role="alert">
+<strong>OFFERS</strong><span class="opacity-60"> - Let's Start Our New Year 2024 With A Beautiful Discount.</span>
+<button type="button" class="btn-close opacity-90 font-11 pt-3 mt-1" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+<div class="alert bg-fade2-yellow color-theme border border-yellow-dark alert-dismissible rounded-xxl fade show" role="alert">
+<strong>Nabobeatz v1.5</strong><span class="opacity-60"> - Coming This March 2024.</span>
+<button type="button" class="btn-close opacity-90 font-11 pt-3 mt-1" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<span class="opacity-70 text-center font-10 d-block mb-n2">No More Notifications </span>
+</div>
+</div>
+<div id="preloader"><div class="spinner-border color-highlight" role="status"></div></div>
+<div class="page-content header-clear-medium">
+<div class="splide single-slider slider-no-dots slider-no-arrows slider-boxed text-center mt-n2" id="single-slider-3">
+<div class="splide__track">
+<div class="splide__list">
+<div class="splide__slide">
+<div class="card card-style mx-0 shadow-card shadow-card-xl"style="background-image: url(14.jpg);" data-card-height="230">
+<div class="card-bottom pb-3 px-3">
+<h3 class="color-white mb-1">Meet Nabobeatz v1.0</h3>
+<p class="color-white opacity-80 mb-0 mt-n1 font-14">The Update is getting more dope!</p>
+</div>
+<div class="card-overlay bg-gradient-fade"></div>
+</div>
+</div>
+<div class="splide__slide">
+<div class="card card-style mx-0 shadow-card shadow-card-xl " data-card-height="230" style="background-image: url('ex.png')">
+<div class="card-bottom pb-3 px-3">
+<h3 class="color-white mb-0">Special Thanks</h3>
+<p class="color-white opacity-80 mb-0 mt-n1"> Preparing special gift for all of Our visitors.</p>
+</div>
+<div class="card-overlay bg-gradient-fade"></div>
+
+</div>
+</div>
+
+<div class="splide__slide">
+<div class="card card-style mx-0 shadow-card shadow-card-xl " data-card-height="230" style="background-image: url('ex2.png')">
+<div class="card-bottom pb-3 px-3">
+<h3 class="color-white mb-0">What we Make</h3>
+<p class="color-white opacity-80 mb-0 mt-n1">Like Streaming Songs, We have that here. Listen today!</p>
+</div>
+<div class="card-overlay bg-gradient-fade"></div>
+
+</div>
+</div>
+<div class="splide__slide">
+<div class="card card-style mx-0 shadow-card shadow-card-xl " data-card-height="230" style="background-image: url('ex3.png');">
+<div class="card-bottom pb-3 px-3">
+<h3 class="color-white mb-1">Visitors Get Ready</h3>
+<p class="color-white opacity-80 mb-0 mt-n1 font-14">We are Collection any idea for Our website!! Join Us.</p>
+</div>
+<div class="card-overlay bg-gradient-fade"></div>
+
+</div>
+</div>
+<div class="splide__slide">
+<div class="card card-style mx-0 shadow-card shadow-card-xl " data-card-height="230" style="background-image: url('ex4.png')">
+<div class="card-bottom pb-3 px-3">
+<h3 class="color-white mb-0">Another Discount?</h3>
+<p class="color-white opacity-80 mb-0 mt-n1">Yeah, a short time limited offer just for LuckyOnes.</p>
+</div>
+<div class="card-overlay bg-gradient-fade"></div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="card card-style">
+<div class="content">
+<h4>What's New?</h4>
+<p class="mb-3">
+In this Nabobeatz v1.0 We Have Some Updates,
+</p>
+<div class="row mb-n3">
+<div class="col-6">
+<ul class="icon-list">
+<li class="color-theme"><i class="bi bi-check-circle-fill color-green-dark"></i>Play & Pause Buttons</li>
+<li class="color-theme"><i class="bi bi-check-circle-fill color-green-dark"></i>Events and Offers</li>
+<li class="color-theme"><i class="bi bi-check-circle-fill color-green-dark"></i>Christmas Sale</li>
+</ul>
+</div>
+<div class="col-6">
+<ul class="icon-list">
+<li class="color-theme"><i class="bi bi-x-circle-fill color-red-dark"></i>Dark Mode</li>
+<li class="color-theme"><i class="bi bi-clock-fill "></i>Downloading</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="card card-style">
+<div class="content mb-0">
+<h5 class="color-highlight font-13 mb-n1">What We Make </h5>
+<h3 class="font-700 pb-0">Discover Our Free Beats<a href="#" data-bs-toggle="offcanvas" data-bs-target="#gone" class="btn btn-xs bg-blue-dark color-white font-700 font-11 shadow-card shadow-card-m float-end">DOWNLOAD NOW</a></h3>
+<p class="mb-3">
+Download the List Of Some Used Beats From Us And Free Giveaways.
+</p>
+</div>
+</div>
+<div class="card card-style" id="countdownText" >
+<div class="card card-style mx-0 shadow-card shadow-card-l rounded-0 mb-2" style="background-image:url('ama.png'); height:150px;">
+<div class="card-bottom p-3 pb-2">
+<div class="d-flex">
+<div>
+    <audio id="myAudio" src="2.mp3"></audio>
+<span class="color-white font-20 pe-3" id="toggleButton"><i id="playIcon" class="bi bi-play pe-2"></i></span>
+</div>
+<div class="ms-auto">
+<span class="color-white font-12" id="durationDisplay"><i class="bi bi-clock-fill pe-2"></i></span>
+
+<span id="durationDisplay"></span>
+<div id="progressBar"></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="content mt-2">
+    
+<h5 class="color-highlight font-12 mb-n1" id="countdown"></h5>
+<h4>A Premium Hot Amapiano<span style='color: red; font-size: 10px;' id="notification"><i class="bis bi-"></i></span></h4>
+<p>
+Get this beat fully packed only for <strong><span style="color: blue;"> $16</span></strong> <s><i>was $20 </s></i> <strong>, Keep in mind that this is the time limited offer.</strong><span class="float-end opacity-60"><img src="logo2.png" height="25" width="150"></span>
+</p>
+
+</div>
+</div>
+<div class="card card-style">
+<div class="card card-style mx-0 shadow-card shadow-card-l rounded-0 mb-2" style="background-image:url('trap.png'); height:150px;">
+<!--<div class="card-top p-3">
+<a href="#" class="btn btn-xs bg-white color-black font-700 font-11 float-end">Apply Now</a>
+</div>-->
+<div class="card-bottom p-3 pb-2">
+<div class="d-flex">
+<div>
+
+</div>
+</div>
+</div>
+</div>
+<div class="content mt-2">
+<h5 class="color-highlight font-12 mb-n1">COMING SOON</h5>
+<h4>A Premium Trap Beat</h4>
+<p>
+Get this beat fully packed only for <strong><span style="color: red;"> CENSORED</span></strong> <s><i>was CENSORED </s></i> <strong>, Keep in mind that this is the time limited offer.</strong><span class="float-end opacity-60"><img src="logo2.png" height="25" width="150"></span>
+</p>
+</div>
+</div>
+<div class="card card-style">
+<div class="card card-style mx-0 shadow-card shadow-card-l rounded-0 mb-2" style="background-image:url('tph.png'); height:150px;">
+<div class="card-top p-3">
+<!--<a href="#" class="btn btn-xs bg-white color-black font-700 font-11 float-end">Apply Now</a>-->
+</div>
+<div class="card-bottom p-3 pb-2">
+<div class="d-flex">
+
+</div>
+</div>
+</div>
+<div class="content mt-2">
+<h5 class="color-highlight font-12 mb-n1">COMING SOON</h5>
+<h4>A Premium Trap Progressive House</h4>
+<p>
+Get this beat fully packed only for <strong><span style="color: red;"> CENSORED</span></strong> <s><i>was CENSORED </s></i> <strong>, Keep in mind that this is the time limited offer.</strong><span class="float-end opacity-60"><img src="logo2.png" height="25" width="150"></span>
+</p>
+</div>
+</div>
+<div class="card card-style">
+<div class="content">
+<div class="d-flex pb-2">
+<div class="align-self-center">
+<a href="#" class="icon icon-xl bg-whatsapp shadow-bg shadow-bg-xs rounded-m"><i class="bi bi-whatsapp"></i></a>
+</div>
+<div class="align-self-center">
+<h5 class="ps-3 color-highlight font-13 mb-n1">Follow Us</h5>
+<h4 class="ps-3 mb-0">Follow Our WhatsApp Channel</h4>
+</div>
+</div>
+<p class="mb-3">
+We post on a regular. You'll get a better idea of our principles and Beats values.
+</p>
+<a href="https://whatsapp.com/channel/0029VaIS5TsIt5rv8eL0Lb38" class="btn btn-s btn-full rounded-s font-700 text-uppercase bg-whatsapp shadow-bg shadow-bg-s">Follow Us</a>
+</div>
+</div>
+<div class="offcanvas offcanvas-modal rounded-m offcanvas-detached" data-card-height="100" id="gone">
+<div class="content">
+<h1 class="text-center font-800 font-20">Hello there,</h1>
+<p class="boxed-text-xl">
+We are currently working to release these free downloads, expect us on January 2024.
+</p>
+<a href="https://wa.me/qr/HRETHHK4ZO2MP1" class="pwa-dismiss close-menu gradient-blue shadow-bg shadow-bg-s btn btn-s btn-full text-uppercase font-700  mt-n2" data-bs-dismiss="offcanvas">CHAT US</a>
+</div>
+</div>
+
+<div class="offcanvas offcanvas-bottom rounded-m offcanvas-detached" id="menu-install-pwa-ios">
+<div class="content">
+<h1 class="text-center font-800 font-20">Add Nabobeatz to Home Screen</h1>
+<p class="boxed-text-xl">
+Install Duo on your home screen, and access it just like a regular app. Open your Safari menu and tap "Add to Home Screen".
+</p>
+<a href="#" class="pwa-dismiss close-menu gradient-blue shadow-bg shadow-bg-s btn btn-s btn-full text-uppercase font-700  mt-n2" data-bs-dismiss="offcanvas">Maybe Later</a>
+</div>
+</div>
+<div class="offcanvas offcanvas-bottom rounded-m offcanvas-detached" id="men">
+<div class="content">
+
+<h1 class="text-center font-700 font-20">Install Nabobeatz</h1>
+<p class="boxed-text-l">
+Install Naboneatz to your Home Screen to enjoy a unique and native experience.
+</p>
+<a href="#" class="pwa-install btn btn-m rounded-s text-uppercase font-900 gradient-highlight shadow-bg shadow-bg-s btn-full">Add to Home Screen</a><br>
+<a href="#" data-bs-dismiss="offcanvas" class="pwa-dismiss close-menu color-theme text-uppercase font-900 opacity-50 font-11 text-center d-block mt-n1">Maybe later</a>
+</div>
+</div>
+</div>
+
+<div class="offcanvas offcanvas-modal rounded-m offcanvas-detached " style="width:690px;" id="menu-information">
+
+<div id="EXPIRED" class="content mt-n2">
+<h1 class="font-800 font-22 mt-2 mb-0 pt-3">Hello Customer <i class="bis bi-cart2"></i><a href="#" data-bs-dismiss="offcanvas" class="close-menu float-end"><i class="bis bi-x-circle-fill"></i></a></h1>
+
+<hr>
+<p class="opacity-100 font-300 color-black">
+You are Now in A Merry Christmas and Happy New Year Offer, Get up to 30% discount on <a href="https://wa.me/qr/HRETHHK4ZO2MP1"> Purchase</a>. Ends 05/01/2024
+</p>
+<a href="https://wa.me/qr/HRETHHK4ZO2MP1" data-bs-dismiss="offcanvas" class="close-menu btn btn-full btn-m shadow-l rounded-s text-uppercase font-600 gradient-green shadow-bg-s shadow-bg mt-n2">CHAT WITH US</a>
+<span class="opacity-50 font-10 d-block float-end mb-n2">Powered by Nabobeatz</span>
+</div>
+</div>
+<script>
+     function greetUser() {
+       var seconds = new Date().getSeconds();
+       
+       if (seconds === 0) {
+          return "Good day";
+       } else if (seconds === 1) {
+          return "hyd";
+       } else if (seconds === 2) {
+          return "Love yah!";
+       } else if (seconds === 3) {
+          return "Hello!";
+       } else if (seconds === 4) {
+          return "Hi there!";
+       } else if (seconds === 5) {
+          return "Salutations!";
+       } else if (seconds === 6) {
+          return "Greetings!";
+       } else if (seconds === 7) {
+          return "Nice to see you!";
+       } else if (seconds === 8) {
+          return "Howdy!";
+       } else if (seconds === 9) {
+          return "Hola!";
+       } else if (seconds === 10) {
+          return "Bonjour!";
+       } else if (seconds === 11) {
+          return "Kon'nichiwa!";
+       } else if (seconds === 12) {
+          return "Guten Tag!";
+       } else if (seconds === 13) {
+          return "Shalom!";
+       } else if (seconds === 14) {
+          return "Namaste!";
+       } else if (seconds === 15) {
+          return "Ciao!";
+       } else if (seconds === 16) {
+          return "Merhaba!";
+       } else if (seconds === 17) {
+          return "Sawasdee!";
+       } else if (seconds === 18) {
+          return "Hallo!";
+       } else if (seconds === 19) {
+          return "Hej!";
+       } else if (seconds === 20) {
+          return "Aloha!";
+       } else if (seconds === 21) {
+          return "Oi!";
+       } else if (seconds === 22) {
+          return "Kamusta!";
+       } else if (seconds === 23) {
+          return "Szia!";
+       } else if (seconds === 24) {
+          return "Hallo!";
+       } else if (seconds === 25) {
+          return "Merhaba!";
+       } else if (seconds === 26) {
+          return "Ni hao!";
+       } else if (seconds === 27) {
+          return "Annyeonghaseyo!";
+       } else if (seconds === 28) {
+          return "Salamat!";
+       } else if (seconds === 29) {
+          return "Salve!";
+       } else if (seconds === 30) {
+          return "Hallå!";
+       } else if (seconds === 31) {
+          return "Aayubowan!";
+       } else if (seconds === 32) {
+          return "Privet!";
+       } else if (seconds === 33) {
+          return "Salamat datang!";
+       } else if (seconds === 34) {
+          return "Yasou!";
+       } else if (seconds === 35) {
+          return "Zdravo!";
+       } else if (seconds === 36) {
+          return "Marhabaan!";
+       } else if (seconds === 37) {
+          return "Kia ora!";
+       } else if (seconds === 38) {
+          return "Merhaba!";
+       } else if (seconds === 39) {
+          return "Sat sri akal!";
+       } else if (seconds === 40) {
+          return "Hei!";
+       } else if (seconds === 41) {
+          return "Privit!";
+       } else if (seconds === 42) {
+          return "Sveiki!";
+       } else if (seconds === 43) {
+          return "Welcome!";
+       } else if (seconds === 44) {
+          return "Velkommen!";
+       } else if (seconds === 45) {
+          return "Καλώς όρισες!";
+       } else if (seconds === 46) {
+          return "Салем!";
+       } else if (seconds === 47) {
+          return "Chào mừng!";
+       } else if (seconds === 48) {
+          return "Välkommen!";
+       } else if (seconds === 49) {
+          return "Willkommen!";
+       } else if (seconds === 50) {
+          return "Sveiki atvykę!";
+       } else if (seconds === 51) {
+          return "Bem-vindo!";
+       } else if (seconds === 52) {
+          return "Добар дошао!";
+       } else if (seconds === 53) {
+          return "Benvingut!";
+       } else if (seconds === 54) {
+          return "Bine ai venit!";
+       } else if (seconds === 55) {
+          return "Hoş geldiniz!";
+       } else if (seconds === 56) {
+          return "Croeso!";
+       } else if (seconds === 57) {
+          return "ยินดีต้อนรับ!";
+       } else if (seconds === 58) {
+          return "સ્વાગત!";
+       } else if (seconds === 59) {
+          return "ຍິນດີຕອນຮູ້!";
+       } else {
+          return "Hello!";
+       }
+    }
+    
+    function refreshGreeting() {
+      var greetingElement = document.getElementById("demo");
+      if (greetingElement) {
+        greetingElement.innerHTML = greetUser();
+      } else {
+        console.error("Element with ID 'demo' not found.");
+      }
+    }
+    
+    setInterval(refreshGreeting, 1000); // Refresh every 5 seconds
+    refreshGreeting(); // Initial refresh
+  </script>
+ <script>
+  const audio = document.getElementById("myAudio");
+  const toggleButton = document.getElementById("toggleButton");
+  const playIcon = document.getElementById("playIcon");
+  const progressBar = document.getElementById("progressBar");
+  const durationDisplay = document.getElementById("durationDisplay");
+
+  function togglePlay() {
+    if (audio.paused) {
+      audio.play();
+      playIcon.classList.remove("bi-play");
+      playIcon.classList.add("bi-pause");
+    } else {
+      audio.pause();
+      playIcon.classList.remove("bi-pause");
+      playIcon.classList.add("bi-play");
+    }
+  }
+  
+  function updateProgress() {
+    const duration = audio.duration;
+    const currentTime = audio.currentTime;
+    const progress = (currentTime / duration) * 100;
+    const minutes = Math.floor(currentTime / 60);
+    const seconds = Math.floor(currentTime % 60);
+    
+    progressBar.style.width = `${progress}%`;
+    durationDisplay.innerHTML = `${minutes}:${seconds}`;
+  }
+
+  audio.addEventListener("timeupdate", updateProgress);
+  
+  toggleButton.addEventListener("click", togglePlay);
+</script>
+<script>
+		// Set the date we're counting down to
+		const countDownDate = new Date("January 07, 2024 23:59:59").getTime();
+
+		// Update the count down every 1 second
+		const x = setInterval(function() {
+
+			// Get today's date and time
+			const now = new Date().getTime();
+
+			// Find the distance between now and the count down date
+			const distance = countDownDate - now;
+
+			// Time calculations for days, hours, minutes and seconds
+			const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+			// Output the result in an element with id="countdown"
+			const countdownElement = document.getElementById("countdown");
+			countdownElement.innerHTML = "Time Remaining :" + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+// Check if 1 minute is remaining
+			if (distance < 60000 && distance > 59000) {
+				// Call your custom notification function here instead of the default notification code
+				showCustomNotification('TIME IS RUNNING OUT!!');
+			}
+		function showCustomNotification(message) {
+			// Replace 'notification' with your desired id
+			const notificationElement = document.getElementById("notification");
+			notificationElement.innerHTML = message;
+			notificationElement.style.display = 'block';
+
+			// Set a timeout to hide the notification after a certain duration
+			setTimeout(function() {
+				notificationElement.style.display = 'none';
+			}, 51000); // Hide the notification after 5 seconds (adjust duration as desired)
+		}
+			// If the count down is finished, write some text
+			if (distance < 0) {
+				clearInterval(x);
+				countdownElement.innerHTML = "<span style='color: red; font-size: 20px;'>THIS OFFER IS EXPIRED</span>";
+			}
+		}, 1000);
+	</script>
+<script>
+    function removeTextAfterCountdown(elementId, targetDate) {
+  var element = document.getElementById(elementId);
+  
+  if (!element) {
+    console.error("Element with ID '" + elementId + "' not found.");
+    return;
+  }
+
+  var countdownInterval = setInterval(function() {
+    var currentDate = new Date();
+    if (currentDate >= targetDate) {
+      clearInterval(countdownInterval);
+      element.textContent = ""; // Remove the text content
+    }
+  }, 1000);
+}
+
+// Usage
+var targetDate = new Date("January 08, 2024 00:00:20"); // Replace with your target date
+removeTextAfterCountdown('countdownText', targetDate); // Replace 'countdownText' with the ID of the element you want to remove the text from
+</script>
+
+	 <script>
+    // Countdown function
+    function countdown() {
+      // Set the countdown end date and time
+      var countDownDate = new Date("January 05, 2024 23:59:59").getTime();
+
+      // Update the countdown every second
+      var countdownInterval = setInterval(function() {
+
+        // Get the current date and time
+        var currentDate = new Date().getTime();
+
+        // Calculate the remaining time
+        var distance = countDownDate - currentDate;
+
+        // Check if the countdown has ended
+        if (distance <= 0) {
+          clearInterval(countdownInterval); // Stop the countdown
+          document.getElementById("timer").innerHTML = "<span style='color: red;'><strong>THE OFFER HAS ENDED</strong></span>";
+        } else {
+          // Calculate the days, hours, minutes, and seconds remaining
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+          // Display the countdown
+          document.getElementById("timer").innerHTML =" Time Until <span style='color: pink;'><strong>CLOSING</strong></span>  - " + days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+        }
+      }, 1000);
+    }
+  </script>
+  <script>  // Countdown 1
+        var countdown1Date = new Date("January 09, 2024 18:59:59").getTime();
+        var countdown1 = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countdown1Date - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            //var milliseconds = Math.floor((distance % 1000)); //
+
+            document.getElementById("countdown1").innerHTML = "<b>" + " <span style='color: white;'><strong>OPENING IN</strong></span>  - " + days + "d " + hours + "h " + minutes + "m " + seconds + "s " + "</b>" ;
+
+            if (distance < 0) {
+                clearInterval(countdown1);
+                document.getElementById("countdown1").innerHTML = " <span style='color: yellow;'><strong>Preparing the Battle...</strong></span> ";
+            }
+        }, 1000);
+
+        // Countdown 2
+        var countdown2Date = new Date("Dexember 23, 2023 17:30:00").getTime();
+        var countdown2 = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countdown2Date - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("countdown2").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+            if (distance < 0) {
+                clearInterval(countdown2);
+                document.getElementById("countdown2").innerHTML = "Time Until <span style='color: pink;'><strong>CLOSING</strong></span>  - " ;
+            }
+        }, 1000);
+
+        // Countdown 3
+        var countdown3Date = new Date("January 05, 2024 23:59:59").getTime();
+        var countdown3 = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countdown3Date - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("countdown3").innerText = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+            if (distance < 0) {
+                clearInterval(countdown3);
+                document.getElementById("countdown3").innerText = "EXPIRED";
+            }
+        }, 1000);</script>
+        <script>function hideElementAfterCountdownEnd() {
+  var element = document.getElementById("Pro");
+
+  if (!element) {
+    console.error("Element with ID 'EXPIRED' not found.");
+    return;
+  }
+
+  var targetDate = new Date("January 06, 2024 00:00:20"); // Replace with your target date
+
+  var countdownInterval = setInterval(function() {
+    var currentDate = new Date();
+    if (currentDate >= targetDate) {
+      clearInterval(countdownInterval);
+      element.style.display = "none"; // Hide the element with ID "EXPIRED"
+    }
+  }, 1000);
+}
+
+// Usage
+hideElementAfterCountdownEnd();</script>
+<script src="bootstrap.min.js"></script>
+<script src="custom.js"></script>
+</body></html>

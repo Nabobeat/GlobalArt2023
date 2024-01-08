@@ -5,6 +5,18 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@keyframes colorGrow {
+  0% { color: aqua; }
+  100% { color: blue; }
+}
+
+.animated-badge {
+  animation-name: colorGrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
 /*@keyframes colorGrow {
   0% { background-color: #80FF00; }
   5% { background-color: aqua; }
